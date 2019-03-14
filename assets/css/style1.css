@@ -1,0 +1,24 @@
+/* white box in the middle */
+
+.content-box {
+    position: relative;
+    top: -600px;
+    left: 100px;
+    width: 960px;
+    height: 350px;
+    padding: 10px;
+    veritcal-align: middle;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+.wrap-text {
+    position: relative;
+    width: 150px;
+    heigth: 150px;
+    float: left;
+    align: top;
+    margin: 10px;
+
+}
+
