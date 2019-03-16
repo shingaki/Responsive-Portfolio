@@ -47,7 +47,7 @@ the portfolio you made last unit with a mobile-responsive layout.
 
 ### Assignment Two Instructions - (No Bootstrap)
 
-1. Copy the contents of `Basic-Portfolio` (your first homework solution) and paste the mentioned files into `Responsive-Portfolio`.
+1. Copy the contents of `Basic-Portfolio` (your first homework solution) and paste the mentioned files into `Responsive-Portfolio`. (DONE)
 
 2. Note: Be sure not to include any dot files (e.g. .git, .gitignore) from the `Basic-Portfolio` repo.
 
