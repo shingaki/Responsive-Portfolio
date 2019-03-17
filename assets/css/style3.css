@@ -3,12 +3,20 @@
 .content-box {
     position: relative;
     left: 100px;
-    top: -650px;
+    /*top: -50px;*/
     width: 760px;
     height: 500px;
     padding: 10px;
-    veritcal-align: middle;
+    /*veritcal-align: middle;*/
     background: white;
+}
+
+.big-text {
+    height: 20px;
+}
+
+.name-space {
+    margin-top: 50px;
 }
 
 p {
@@ -118,24 +126,25 @@ p {
     }
 
     .heading-box-2 {
+        /*position: static;*/
         width: 75px;
-        left: 350px;
+        left: 180px;
         font-size: 14px;
-        position: static;
+        top: 50px;
     }
 
     .heading-box-3 {
+        /*position: static;*/
         width: 75px;
         left: 100px;
         font-size: 14px;
-        position: static;
     }
 
     .heading-box-4 {
+        /*position: static;*/
         width: 75px;
         left: 100px;
         font-size: 14px;
-        position: static;
     }
 
     .section-title {
@@ -154,6 +163,14 @@ p {
     .heading-box-5
     {
         width: 640px;
+    }
+
+    .big-text {
+        width: 100%;
+    }
+
+    .name-space {
+        margin-top: 75px;
     }
 
 }

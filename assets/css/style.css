@@ -98,14 +98,15 @@ p {
 
 .box-footer {
     background: #666666;
-    height: 45px;
-    width: 960px;
+    height: 55px;
+    width: 100%;
+    padding-top: 10px;
     color: white;
     text-align: center;
-    font-size: 16px;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    padding-top:35px;
+    font-size: 18px;
     border-top: 8px solid #4aaaa5;
+    top: 600px;
+    position: absolute;
 }
 
 .section-title {
@@ -124,6 +125,8 @@ p {
     right: 10px;
     top: 35px;
 }
+
+
 
 
 

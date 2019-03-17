@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style2.css">
     <link rel="stylesheet" href="./assets/css/style3.css">
+
 
 </head>
 <body>
@@ -15,7 +17,7 @@
 <div class="heading-box">
     <!-- turquoise box at the top-->
     <div class="heading-box-1">Tamami Shingaki Polk
-        <div class="heading-box-2"><a href="index.html">About Me</a>
+        <div class="heading-box-2"><a href="index.html">About</a>
             <div class="heading-box-3"><a href="portfolio.html">Portfolio</a>
                 <div class="heading-box-4"><a href="contact.html">Contact</a>
                 </div>
@@ -24,18 +26,32 @@
     </div>
 </div>
 <div><img src="./assets/images/circuit.png" class="heading-box-5"></div>
-<div class="box-footer">&copy; Copyright</div>
+<!--<div class="box-footer">&copy; Copyright</div>-->
 <div class="content-box">
-    <div class="section-title">Contact</div>
+    <div class="section-title">About Me</div>
     <div class="section-rule"></div>
-    <br><br><p>Name</p>
-    <input type="text" id="fname" name="firstname" placeholder="John Smith" class="input-box">
-    <br><br><p>Email</p>
-    <input type="text" id="email" name="email" placeholder="Email" class="input-box">
-    <br><br><p>Message</p>
-    <textarea class="comment">Type your comment here.</textarea>
+     <div class="form-group name-space">
+                <label>Name</label>
+         <input type="text" size="90" class="form-control big-text" placeholder="John Smith">
+            </div>
 <br><br>
-<button type="submit" value="Submit" class="button-style button-hover">Submit</button>
-</div>
+            <div class="form-group">
+                <label>Email</label>
+                <input type="text" size="90" class="form-control big-text" placeholder="Email">
+            </div>
+                <br><br>
+            <div class="form-group">
+                <label>Comments</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" cols="80"></textarea>
+            </div>
+<br><br>
+            <button type="submit" value="Submit" class="button-style button-hover">Submit</button>
+        </div>
+
+
+
+<div class="box-footer"> <h6>&copy; Copyright</h6></div>
+
+
 </body>
 </html>
